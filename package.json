@@ -1,0 +1,22 @@
+{
+  "name": "coder-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzaghal/codeR-api.git"
+  },
+  "author": "Wisam Zaghal <wisamzaghal@gmail.com> (http://wisam.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wzaghal/codeR-api/issues"
+  },
+  "homepage": "https://github.com/wzaghal/codeR-api#readme",
+  "dependencies": {
+    "express": "^4.13.0"
+  }
+}
