@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-node": "babel-node --stage 0 --ignore='foo|bar|baz'",
+    "start": "nodemon --exec npm run babel-node -- server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/wzaghal/codeR-api#readme",
   "dependencies": {
     "express": "^4.13.0"
+  },
+  "devDependencies": {
+    "ramda": "^0.15.0"
   }
 }
